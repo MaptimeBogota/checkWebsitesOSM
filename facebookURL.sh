@@ -1,6 +1,8 @@
 #! /bin/bash
 
 # Script that validates all URL on OSM elements on the website key.
+# Currently hardcoded to the following area that correspond to Bogota:
+# 4.702983,-74.081650,4.725736,-74.027920
 #
 # Based on https://www.openstreetmap.org/user/Cascafico/diary/401794 Cascafico.
 #
@@ -23,7 +25,7 @@ fi
 
 rm "${QUERY_FILE}"
 
-echo "Please copy the following table in the OSM wiki - https://wiki.openstreetmap.org/. You can preview the table meanwhile you correct the queries."
+echo "Please copy the following table in the OSM wiki - https://wiki.openstreetmap.org/. You can preview the table meanwhile you correct the URLs."
 echo
 echo "========================================================================"
 echo 
